@@ -7,6 +7,11 @@ export const prerender = PRERENDER !== 'false';
 
 const nav_links: NavigationLink[] = [
 	{
+		title: 'Showcase',
+		slug: 'showcase'
+	},
+
+	{
 		title: 'Docs',
 		slug: 'docs',
 		sections: [

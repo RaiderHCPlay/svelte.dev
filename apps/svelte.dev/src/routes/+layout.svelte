@@ -30,6 +30,7 @@
 	let { data, children: layout_children } = $props();
 
 	const sections: Record<string, string> = {
+		showcase: 'Showcase',
 		docs: 'Docs',
 		packages: 'Packages',
 		playground: 'Playground',
